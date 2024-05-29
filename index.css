@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(182, 202, 219);
+}
+
+img {
+    border-radius: 8px;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        width: 100%;
+        height: auto;
+    }
+}
